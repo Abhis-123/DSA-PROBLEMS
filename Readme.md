@@ -8,3 +8,8 @@ The idea is to create a repository that contains most of famous problems and the
 
  2. [Add Two Numbers](./1_to_100/2)-
         Add two numbers without use of BigInt and with the help of linked lists
+ 3. [Longest Substring Without Repeating Characters](./1_to_100/3)-
+       Given a string s, find the length of the longest substring without repeating characters.
+ 4. [Subarray with maximum sum](./1_to_100/4)- 
+       find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+
