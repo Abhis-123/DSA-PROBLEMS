@@ -12,4 +12,7 @@ The idea is to create a repository that contains most of famous problems and the
        Given a string s, find the length of the longest substring without repeating characters.
  4. [Subarray with maximum sum](./1_to_100/4)- 
        find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
-
+ 5. [Median of Two Sorted Arrays](./1_to_100/5)- 
+ 6. [Longest Palindromic Substring](./1_to_100/6)-
+ 7. [Merge Sorted Array](./1_to_100/7) - Merge two sorted arrays 
+       

@@ -31,19 +31,33 @@ int max_sum_subarray_brute_force(vector<int> & nums){
 
 
 
-int max_sum_subarray_kdane(vector<int>& nums){
+int max_sum_subarray_kadane(vector<int>& nums){
         // create a max variable to hold the sum
         int max = -1000000;
         // get the size of the array
         int n = nums.size();
         // create a new variable to hold the temporary sum
-        int current_sum = 0;
+        int max_sum_here = 0;
+
+        // iterate over the array
+        for(int i = 0; i < n;i++){
+            max_sum_here += nums[i];
+            // update the global max variable
+            if(max_sum_here > max){
+                max = max_sum_here;
+            }
+            // if sum is less than 0 then reset sum to zero
+            if(max_sum_here< 0){
+                    max_sum_here = 0;
+            }
+        }
+        return max;
 
 }
 
 int main(){
     int arr[] = {-2,1,-3,4,-1,2,1,-5,4};
     vector<int> nums(arr, arr + sizeof(arr) / sizeof(int));
-    int x = max_sum_subarray_brute_force(nums);
+    int x = max_sum_subarray_kadane(nums);
     cout << x << endl;
 }
