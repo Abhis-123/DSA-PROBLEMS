@@ -5,4 +5,7 @@ Given two sorted arrays, a[] and b[], the task is to find the median of these so
 
     nums1=[-5, 3, 6, 12, 15],nums2= [-12, -10, -6, -3, 4, 10]
     median(nums1, nums2) returns 3
-    he arrays we are merging are [1,2,3] and [2,5,6].The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
+    explanation The merged array is :
+        nums3 = {-12, -10, -6, -5 , -3,
+                 3, 4, 6, 10, 12, 15},
+       So the median of the merged array is 3
