@@ -37,6 +37,7 @@ string minWindow(string s, string t) {
     }
 
 int main(){
+    vector<int> test = {1,2,3,4,5,6,7,8,9,10};
     cout<<minWindow("helloworld","helo");
 }
 
